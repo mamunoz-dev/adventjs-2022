@@ -13,3 +13,11 @@ function countHours(year, holidays) {
   }, 0);
 }
 ```
+
+### 122 Points
+
+```js
+countHours = (year, holidays) => {
+  return holidays.reduce((acc, currentValue) => new Date(`${currentValue}/${year}`).getDay() % 6 ? acc+2 : acc, 0);
+} 
+```
