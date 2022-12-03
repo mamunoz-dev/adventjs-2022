@@ -32,12 +32,10 @@ Good luck!
   "*******\n*socks*\n*******"
 ] */
 
-function wrapping(gifts) {
-  return gifts.map(gift => {
-    const sideWrap = '*'.repeat(gift.length+2);
-    return `${sideWrap}\n*${gift}*\n${sideWrap}`;
-  });
-}
+wrapping = (gifts) => gifts.map(gift => {
+  const sideWrap = '*'.repeat(gift.length+2);
+  return `${sideWrap}\n*${gift}*\n${sideWrap}`;
+});
 
 const gifts = ['book', 'game', 'socks'];
 const wrapped = wrapping(gifts);
