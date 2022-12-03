@@ -25,7 +25,9 @@ countHours = (year, holidays) => {
 ### 122 Points
 
 ```js
-countHours = (y, h) => h.filter(c => new Date(`${y}/${c}`).getDay() % 6 !== 0).length*2;
+countHours = (year, holidays) => {
+  return holidays.filter(day => new Date(`${year}/${day}`).getDay() % 6 !== 0).length*2;
+}
 ```
 
 ### 122 Points
