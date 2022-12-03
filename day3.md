@@ -28,3 +28,15 @@ distributeGifts = (packOfGifts, reindeers) => {
   return Math.floor(reindeersWeightLimit/packOfGiftsWeight);
 }
 ```
+
+### 198 puntos (envíada por @corteshvictor)
+
+```js
+
+distributeGifts = (packOfGifts, reindeers) => {
+  const packOfGiftsSize = packOfGifts.join('').length;
+  const reindeersSize = reindeers.join('').length * 2;
+  
+  return Math.floor(reindeersSize / packOfGiftsSize)
+}
+```
