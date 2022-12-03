@@ -21,3 +21,11 @@ countHours = (year, holidays) => {
   return holidays.reduce((acc, currentValue) => new Date(`${currentValue}/${year}`).getDay() % 6 ? acc+2 : acc, 0);
 } 
 ```
+
+### 122 Points
+
+```js
+countHours = (y, h) => {
+  return h.filter(c => new Date(`${y}/${c}`).getDay() % 6 !== 0).length*2;
+} 
+```
