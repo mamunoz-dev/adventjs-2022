@@ -17,3 +17,14 @@ const reindeers = ["dasher", "dancer"]
 
 console.log(distributedGifts(packOfGifts, reindeers)); // 2
 ```
+
+### 198 puntos
+
+```js
+distributeGifts = (packOfGifts, reindeers) => {
+  const packOfGiftsWeight = packOfGifts.toString().length - packOfGifts.length + 1;
+  const reindeersWeightLimit = (reindeers.toString().length - reindeers.length + 1)*2
+  
+  return Math.floor(reindeersWeightLimit/packOfGiftsWeight);
+}
+```
