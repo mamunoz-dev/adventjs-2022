@@ -2,10 +2,10 @@
 
 ```js
 function countHours(year, holidays) {
-  return holidays.reduce((acc, currentValue) => {
-    const dayOfWeek = new Date(`${currentValue}/${year}`).getDay();
+  return holidays.reduce((acc, day) => {
+    const dayOfWeek = new Date(`${day}/${year}`).getDay();
     
-    if (dayOfWeek === 0 || dayOfWeek === 6) {
+    if (dayOfWeek % 6 === 0) {
       return acc;
     }
     
@@ -18,7 +18,7 @@ function countHours(year, holidays) {
 
 ```js
 countHours = (year, holidays) => {
-  return holidays.reduce((acc, currentValue) => new Date(`${currentValue}/${year}`).getDay() % 6 ? acc+2 : acc, 0);
+  return holidays.reduce((acc, day) => new Date(`${day}/${year}`).getDay() % 6 ? acc+2 : acc, 0);
 } 
 ```
 
