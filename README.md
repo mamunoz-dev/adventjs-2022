@@ -1,5 +1,7 @@
 # adventjs-2022
 
+Solutions for [midudev](https://midu.dev) [AdventJS 2022 🎅](https://adventjs.dev) challenges:
+
 * [Day 1](day1.md)
 * [Day 2](day2.md)
 * [Day 3](day3.md)
