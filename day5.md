@@ -1,3 +1,33 @@
+### Algoritmo no recursivo
+
+El algoritmo no recursivo sería algo así:
+
+giftsCities = [12, 3, 11, 5, 7]
+maxGifts = 20
+maxCities = 3
+
+1) Sacar todas las posibles combinaciones de elementos del array:
+
+[[12],[3],[11],[5],[7],[12,3],[12,11],[3,11],[12,5],[3,5],[11,5],[12,7],[3,7],[11,7],[5,7],[12,3,11],[12,3,5],[12,11,5],[3,11,5],[12,3,7],[12,11,7],[3,11,7],[12,5,7],[3,5,7],[11,5,7],[12,3,11,5],[12,3,11,7],[12,3,5,7],[12,11,5,7],[3,11,5,7],[12,3,11,5,7]]
+
+2) Filtrar las que tengan un tamaño igual o menor que maxCities (3):
+
+[[12],[3],[11],[5],[7],[12,3],[12,11],[3,11],[12,5],[3,5],[11,5],[12,7],[3,7],[11,7],[5,7],[12,3,11],[12,3,5],[12,11,5],[3,11,5],[12,3,7],[12,11,7],[3,11,7],[12,5,7],[3,5,7],[11,5,7]]
+
+3) Hacer la suma de los elementos de cada sub-array:
+
+[12,3,11,5,7,15,23,14,17,8,16,19,10,18,12,26,20,28,19,22,30,21,24,15,23]
+
+4) Filtrar aquellos que sean menores que maxGifts (20):
+
+[20,19,19,18,17,16,15,15,14,12,12,11,10,8,7,5,3]
+
+5) Devolver el máximo de ese array: 20
+
+### Algoritmo Recursivo
+
+Próximamente...
+
 ### 99 points
 
 ```js
