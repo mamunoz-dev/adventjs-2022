@@ -1,4 +1,4 @@
-### Algoritmo iterativo (en mi caso, el máximo ha sido de 170 puntos tras mucho refactorizar)
+### Algoritmo iterativo (hasta 170 puntos)
 
 Suponiendo los siguientes inputs:
 
