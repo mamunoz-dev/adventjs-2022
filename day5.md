@@ -1,4 +1,4 @@
-### Algoritmo no recursivo
+### Algoritmo iterativo
 
 El algoritmo no recursivo sería algo así:
 
@@ -30,7 +30,7 @@ El algoritmo no recursivo sería algo así:
 [20,19,19,18,17,16,15,15,14,12,12,11,10,8,7,5,3]
 ```
 
-5) Devolver el máximo de ese array: 20
+5) Devolver el máximo de ese array: `20`
 
 ### Algoritmo Recursivo
 
