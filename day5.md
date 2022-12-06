@@ -18,6 +18,7 @@ const maxCities = 3
 [12,3,11,5],[12,3,11,7],[12,3,5,7],[12,11,5,7],[3,11,5,7],[12,3,11,5,7]
 ]
 ```
+Este vídeo puede ayudarte a sacar todas laa combinaciones: https://www.youtube.com/watch?v=oXHJBHCXsnw
 
 2) Filtrar las que tengan un tamaño igual o menor que maxCities (3):
 
