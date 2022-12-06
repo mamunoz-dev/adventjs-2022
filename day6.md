@@ -38,8 +38,4 @@ function createCube (size) {
 
   return (firstHalf + secondHalf).replace(/\n$/, "");
 }
-
-const cube = createCube(3);
-
-console.log(cube);
 ```
