@@ -1,10 +1,12 @@
 ### Algoritmo iterativo
 
-El algoritmo no recursivo sería algo así:
+Suponiendo los siguientes inputs:
 
-* giftsCities = [12, 3, 11, 5, 7]
-* maxGifts = 20
-* maxCities = 3
+```js
+const giftsCities = [12, 3, 11, 5, 7]
+const maxGifts = 20
+const maxCities = 3
+```
 
 1) Sacar todas las posibles combinaciones de elementos del array:
 
