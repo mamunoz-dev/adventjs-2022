@@ -48,7 +48,7 @@ Este vídeo puede ayudarte a sacar todas laa combinaciones: https://www.youtube.
 
 Próximamente...
 
-### 99 points
+### 99 points (iterativo)
 
 ```js
 function getMaxGifts(giftsCities, maxGifts, maxCities) {
@@ -88,7 +88,7 @@ getMaxGifts([50, 70, 30], 100, 3); // 100
 getMaxGifts([50, 70, 30], 100, 4); // 100
 ```
 
-### 123 points
+### 123 points (iterativo)
 
 ```js
 function getMaxGifts(giftsCities, maxGifts, maxCities) {
@@ -115,7 +115,7 @@ getMaxGifts([50, 70, 30], 100, 3); // 100
 getMaxGifts([50, 70, 30], 100, 4); // 100
 ```
 
-### 137 points
+### 137 points (Recursivo)
 
 ```js
 function getMaxGifts(giftsCities, maxGifts, maxCities) { 
@@ -144,4 +144,18 @@ getMaxGifts([50, 70], 100, 1); // 70
 getMaxGifts([50, 70, 30], 100, 2); // 100
 getMaxGifts([50, 70, 30], 100, 3); // 100
 getMaxGifts([50, 70, 30], 100, 4); // 100
+```
+
+### 169 points (iterativo)
+
+```js
+function getMaxGifts(giftsCities, maxGifts, maxCities) {
+  return Math.max(0, ...(
+    [...giftsCities
+  .reduce((x, y) => x.concat(x.map(x => [y].concat(x))), [[]])]
+      .filter((combi) => combi.length <= maxCities)
+      .map((combi) => combi.reduce((acc, weight) => acc + weight, 0))
+      .filter((item) => item <= maxGifts))
+  );
+}
 ```
