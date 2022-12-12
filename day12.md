@@ -15,7 +15,7 @@ function selectSleigh(distance, sleighs) {
 }
 ```
 
-### 320 puntos (> 3000 ops/sec)
+### 320 puntos (> 3000 ops/sec, Complejidad cognitiva: 2)
 
 ```js
 function selectSleigh(distance, sleighs) {
@@ -26,5 +26,16 @@ function selectSleigh(distance, sleighs) {
     .pop();
   
   return sleigh && sleigh.name || null;
+}
+```
+
+### 360 puntos (> 3000 ops/sec, Complejidad cognitiva: 1)
+
+```js
+function selectSleigh(distance, sleighs) {
+  return sleighs
+    .filter(sleigh => sleigh.consumption*distance <= 20)
+    .map(sleigh => sleigh.name)
+    .pop() || null;
 }
 ```
