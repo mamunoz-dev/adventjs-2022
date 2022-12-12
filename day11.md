@@ -25,3 +25,25 @@ function getCompleted(part, total) {
   return `${num/divider}/${den/divider}`;
 }
 ```
+
+### 260 or 160 puntos (> 2000 ops/sec or < 2000 ops/sec)
+
+```js
+function getCompleted(part, total) {
+  const hms = [60 * 60, 60, 1];
+  const getSeconds = (time) => 
+    time
+      .split(':')
+      .map((val, i) => Number(val) * hms[i])
+      .reduce((acc, val) => acc + val, 0);
+  
+  const [partSeconds, totalSeconds] = [part, total].map(getSeconds);
+  let [numerator, denominator] = [partSeconds, totalSeconds];
+  
+  while(denominator !== 0) {
+    [denominator, numerator] = [numerator % denominator, denominator];
+  }
+  
+  return `${partSeconds/numerator}/${totalSeconds/numerator}`;
+}
+```
