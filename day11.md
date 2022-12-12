@@ -1,4 +1,4 @@
-### 220 puntos
+### 220 points
 
 ```js
 function getCompleted(part, total) {
@@ -26,7 +26,7 @@ function getCompleted(part, total) {
 }
 ```
 
-### 260 or 160 puntos (> 2000 ops/sec or < 2000 ops/sec)
+### 260 or 160 points (> 2000 ops/sec or < 2000 ops/sec)
 
 ```js
 function getCompleted(part, total) {
