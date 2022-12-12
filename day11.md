@@ -4,11 +4,11 @@
 function getCompleted(part, total) {
   const getTimeArray = (time) => time.split(':').map(elm => Number(elm));
   const mcd = (a, b) => {
-    let temporal;
+    let temp;
     while (b !== 0) {
-        temporal = b;
+        temp = b;
         b = a % b;
-        a = temporal;
+        a = temp;
     }
     return a;
   };
