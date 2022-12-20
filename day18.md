@@ -1,6 +1,6 @@
 ### 200 puntos
 
-``js
+```js
 function dryNumber(dry, numbers) {
   return Array.from(Array(numbers))
     .map((item, i) => i+1)
