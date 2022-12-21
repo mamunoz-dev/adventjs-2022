@@ -1,6 +1,22 @@
-### Algoritmo iterativo (hasta 170 puntos)
+# Challenge #5: Optimizing Santa's trips
 
-Suponiendo los siguientes inputs:
+### Cognitive Complexity: 1 (~20 ops/s)
+
+```js
+function getMaxGifts(giftsCities, maxGifts, maxCities) {
+  return Math.max(0, ...(
+    [...giftsCities
+      .reduce((x, y) => x.concat(x.map(x => [y].concat(x))), [[]])]
+      .filter((combi) => combi.length <= maxCities)
+      .map((combi) => combi.reduce((acc, weight) => acc + weight, 0))
+      .filter((item) => item <= maxGifts))
+  );
+}
+```
+
+### Iterative algorithm explained
+
+With the following inputs:
 
 ```js
 const giftsCities = [12, 3, 11, 5, 7]
@@ -8,7 +24,7 @@ const maxGifts = 20
 const maxCities = 3
 ```
 
-1) Sacar todas las posibles combinaciones de elementos del array:
+1) Get all possible combintions of elements in the array:
 
 ```js
 [
@@ -18,9 +34,9 @@ const maxCities = 3
 [12,3,11,5],[12,3,11,7],[12,3,5,7],[12,11,5,7],[3,11,5,7],[12,3,11,5,7]
 ]
 ```
-Este vídeo puede ayudarte a sacar todas laa combinaciones: https://www.youtube.com/watch?v=oXHJBHCXsnw
+This video will help you get all possible combinations: https://www.youtube.com/watch?v=oXHJBHCXsnw
 
-2) Filtrar las que tengan un tamaño igual o menor que maxCities (3):
+2) Filter those having a length less or equal than maxCities (3):
 
 ```js
 [
@@ -30,25 +46,21 @@ Este vídeo puede ayudarte a sacar todas laa combinaciones: https://www.youtube.
 ]
 ```
 
-3) Hacer la suma de los elementos de cada sub-array:
+3) Sum all elements in each sub-array:
 
 ```js
 [12,3,11,5,7,15,23,14,17,8,16,19,10,18,12,26,20,28,19,22,30,21,24,15,23]
 ```
 
-4) Filtrar aquellos que sean menores que maxGifts (20):
+4) Filter those smaller than maxGifts (20):
 
 ```js
 [20,19,19,18,17,16,15,15,14,12,12,11,10,8,7,5,3]
 ```
 
-5) Devolver el máximo de ese array: `20`
+5) Return max of this array: `20`
 
-### Algoritmo Recursivo
-
-Próximamente...
-
-### 99 points (iterativo)
+### Readable iterative algorithm - Cognitive Complexity: 2 (~20 ops/s)
 
 ```js
 function getMaxGifts(giftsCities, maxGifts, maxCities) {
@@ -73,8 +85,6 @@ function getMaxGifts(giftsCities, maxGifts, maxCities) {
     .sort((a, b) => b - a);
 
   const finalAmount = validSumsSorted[0] || 0;
-
-  console.log(finalAmount);
   
   return finalAmount;
 }
@@ -88,34 +98,7 @@ getMaxGifts([50, 70, 30], 100, 3); // 100
 getMaxGifts([50, 70, 30], 100, 4); // 100
 ```
 
-### 123 points (iterativo)
-
-```js
-function getMaxGifts(giftsCities, maxGifts, maxCities) {
-  const getAllCombinations = (array) => {
-    return new Array(1 << array.length)
-      .fill()
-      .map((e1, i) => array.filter((e2, j) => i & (1 << j)));
-  };
-
-  const validSumsSorted = getAllCombinations(giftsCities)
-    .filter((combi) => combi.length <= maxCities && combi.length > 0)
-    .map((combi) => combi.reduce((acc, weight) => acc + weight))
-    .filter((item) => item <= maxGifts);
-  
-  return validSumsSorted.length > 0 ?Math.max(...validSumsSorted) : 0;
-}
-
-getMaxGifts([12, 3, 11, 5, 7], 20, 3); // 20
-getMaxGifts([50], 15, 1); // 0
-getMaxGifts([50], 100, 1); // 50
-getMaxGifts([50, 70], 100, 1); // 70
-getMaxGifts([50, 70, 30], 100, 2); // 100
-getMaxGifts([50, 70, 30], 100, 3); // 100
-getMaxGifts([50, 70, 30], 100, 4); // 100
-```
-
-### 137 points (Recursivo)
+### Recursive Algorithm (Backtrack) - Cognitive Complexity: 8 (~100 ops/s)
 
 ```js
 function getMaxGifts(giftsCities, maxGifts, maxCities) { 
@@ -144,18 +127,4 @@ getMaxGifts([50, 70], 100, 1); // 70
 getMaxGifts([50, 70, 30], 100, 2); // 100
 getMaxGifts([50, 70, 30], 100, 3); // 100
 getMaxGifts([50, 70, 30], 100, 4); // 100
-```
-
-### 169 points (iterativo)
-
-```js
-function getMaxGifts(giftsCities, maxGifts, maxCities) {
-  return Math.max(0, ...(
-    [...giftsCities
-  .reduce((x, y) => x.concat(x.map(x => [y].concat(x))), [[]])]
-      .filter((combi) => combi.length <= maxCities)
-      .map((combi) => combi.reduce((acc, weight) => acc + weight, 0))
-      .filter((item) => item <= maxGifts))
-  );
-}
 ```
