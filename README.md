@@ -2,28 +2,29 @@
 
 Different solutions + points achieved for [midudev](https://midu.dev) [AdventJS 2022 🎅](https://adventjs.dev) challenges:
 
-* [Day 1](day1.md)
-* [Day 2](day2.md)
-* [Day 3](day3.md)
-* [Day 4](day4.md)
-* [Day 5](day5.md)
-* [Day 6](day6.md)
-* [Day 7](day7.md)
-* [Day 8](day8.md)
-* [Day 9](day9.md)
-* [Day 10](day10.md)
-* [Day 11](day11.md)
-* [Day 12](day12.md)
-* [Day 13](day13.md)
-* [Day 14](day14.md)
-* [Day 15](day15.md)
-* [Day 16](day16.md)
-* [Day 17](day17.md)
-* [Day 18](day18.md)
-* [Day 19](day19.md)
-* [Day 20](day20.md)
-* [Day 21](day21.md)
-* [Day 22](day22.md)
-* [Day 23](day23.md)
-* [Day 24](day24.md)
-* [Day 25](day25.md)
+| Day | Challenge | Cognitive complexity | Max. ops/sec Achieved | Max.Points Achieved |
+|---|---|---|---|---|
+| 1 | [Challenge #1: Automating Christmas gift wrapping!](day1.md) | 1 |  |  |
+| 2 | [Challenge #2: Nobody wants to do extra hours at work](day2.md) | 1 |  |  |
+| 3 | [Challenge #3: How many packs of gifts can Santa carry?](day3.md) | 1 |  |  |
+| 4 | [Challenge #4: Box inside a box and another...](day4.md) | 1 |  |  |
+| 5 | [Challenge #5: Optimizing Santa's trips](day5.md) | 3 |  |  |
+| 6 | [Challenge #6: Creating xmas decorations](day6.md) | 1 |  |  |
+| 7 | [Challenge #7: Doing gifts inventory](day7.md) | 1 |  |  |
+| 8 | [Challenge #8: We need a mechanic!](day8.md) | 1 |  |  |
+| 9 | [Challenge #9: Crazy Xmas lights](day9.md) | 1 |  |  |
+| 10 | [Challenge #10: The Santa Claus sleigh jump](day10.md) | 1 |  |  |
+| 11 | [Challenge #11: Santa Claus is Scrum Master](day11.md) | 1 |  |  |
+| 12 | [Challenge #12: Electric sleighs, wow!](day12.md) | 1 |  |  |
+| 13 | [Challenge #13: Backups for Santa Claus files](day13.md) | 1 |  |  |
+| 14 | [Challenge #14: The best path](day14.md) | 1 |  |
+| 15 | [Challenge #15: Decorating the Christmas tree](day15.md) | 1 |  |  |
+| 16 | [Challenge #16: Fixing Santa Claus' letters](day16.md) | 1 |  |  |
+| 17 | [Challenge #17: Carrying gifts in bags](day17.md) | 3 |  |  |
+| 18 | [Challenge #18: We ran out of ink!](day18.md) | 1 |  |  |
+| 19 | [Challenge #19: Sorting the toys!](day19.md) | 1 |  |  |
+| 20 | [Challenge #20: More challenging trips](day20.md) | 1 |  |  |
+| 21 | [Challenge #21: ???](day21.md) |  |  |  |
+| 22 | [Challenge #22: ???](day22.md) |  |  |  |
+| 23 | [Challenge #23: ???](day23.md) |  |  |  |
+| 24 | [Challenge #24: ???](day24.md) |  |  |  |
