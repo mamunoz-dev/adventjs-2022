@@ -1,8 +1,10 @@
-### 132 points
+### Cognitive Complexity: 1 (>2000 ops/sec)
 
 ```js
-wrapping = (gifts) => gifts.map(gift => {
-  const sideWrap = '*'.repeat(gift.length+2);
-  return `${sideWrap}\n*${gift}*\n${sideWrap}`;
-});
+function wrapping(gifts) {
+  return gifts.map(gift => {
+    const sideWrap = '*'.repeat(gift.length+2);
+    return `${sideWrap}\n*${gift}*\n${sideWrap}`;
+  });
+}
 ```
