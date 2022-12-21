@@ -6,7 +6,7 @@ Different solutions for [midudev's](https://midu.dev) [AdventJS 2022 🎅](https
 :-:|---|:-:|:-:|
 | 1 | [Challenge #1: Automating Christmas gift wrapping!](day1.md) | 1 | >2000 ops/s |
 | 2 | [Challenge #2: Nobody wants to do extra hours at work](day2.md) | 1 | >2000 ops/s |
-| 3 | [Challenge #3: How many packs of gifts can Santa carry?](day3.md) | 1 |  |
+| 3 | [Challenge #3: How many packs of gifts can Santa carry?](day3.md) | 1 | >3000 ops/s |
 | 4 | [Challenge #4: Box inside a box and another...](day4.md) | 1 |  |
 | 5 | [Challenge #5: Optimizing Santa's trips](day5.md) | 3 |  |
 | 6 | [Challenge #6: Creating xmas decorations](day6.md) | 1 |  |
