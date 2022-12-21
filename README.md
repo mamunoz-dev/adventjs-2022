@@ -3,7 +3,7 @@
 Different solutions for [midudev's](https://midu.dev) [AdventJS 2022 🎅](https://adventjs.dev) challenges:
 
 | Day | Challenge | Cognitive complexity | Max. ops/s Achieved |
-|---|---|---|---|
+:-:|---|:-:|:-:|
 | 1 | [Challenge #1: Automating Christmas gift wrapping!](day1.md) | 1 | >2000 ops/s |
 | 2 | [Challenge #2: Nobody wants to do extra hours at work](day2.md) | 1 | >2000 ops/s |
 | 3 | [Challenge #3: How many packs of gifts can Santa carry?](day3.md) | 1 |  |
