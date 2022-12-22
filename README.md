@@ -18,7 +18,7 @@ Different solutions for [midudev's](https://midu.dev) [AdventJS 2022 🎅](https
 | 12 | [Challenge #12: Electric sleighs, wow!](day12.md) | 1 | >3000 ops/s |
 | 13 | [Challenge #13: Backups for Santa Claus files](day13.md) | 1 | >2000 ops/s |
 | 14 | [Challenge #14: The best path](day14.md) | 1 | >2000 ops/s |
-| 15 | [Challenge #15: Decorating the Christmas tree](day15.md) | 1 |  |
+| 15 | [Challenge #15: Decorating the Christmas tree](day15.md) | 1 | >1000 ops/s |
 | 16 | [Challenge #16: Fixing Santa Claus' letters](day16.md) | 1 |  |
 | 17 | [Challenge #17: Carrying gifts in bags](day17.md) | 3 |  |
 | 18 | [Challenge #18: We ran out of ink!](day18.md) | 1 |  |
