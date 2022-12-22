@@ -1,4 +1,4 @@
-### 160 puntos (< 2000 ops/sec, Complejidad Cognitiva: 1)
+### Cognitive Complexity: 1 (>1000 ops/s)
 
 ```js
 function decorateTree(base) {
