@@ -1,15 +1,6 @@
-### 300 puntos (>2000 ops/sec, Complejidad Cognitiva: 1)
+# Challenge #19: Sorting the toys!
 
-```js
-function sortToys(toys, positions) {
-  return toys
-    .map((toy, i) => [positions[i], toy])
-    .sort((a, b) => a[0] - b[0])
-    .map(toy => toy[1])
-}
-```
-
-### 300 puntos (>2000 ops/sec, Complejidad Cognitiva: 1)
+### Cognitive Complexity: 1 (>3000 ops/s)
 
 ```js
 function sortToys(toys, positions) {
