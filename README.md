@@ -15,7 +15,7 @@ Different solutions for [midudev's](https://midu.dev) [AdventJS 2022 🎅](https
 | 9 | [Challenge #9: Crazy Xmas lights](day9.md) | 1 | >2000 ops/s |
 | 10 | [Challenge #10: The Santa Claus sleigh jump](day10.md) | 1 | >2000 ops/s |
 | 11 | [Challenge #11: Santa Claus is Scrum Master](day11.md) | 1 | >2000 ops/s |
-| 12 | [Challenge #12: Electric sleighs, wow!](day12.md) | 1 |  |
+| 12 | [Challenge #12: Electric sleighs, wow!](day12.md) | 1 | >3000 ops/s |
 | 13 | [Challenge #13: Backups for Santa Claus files](day13.md) | 1 |  |
 | 14 | [Challenge #14: The best path](day14.md) | 1 |  |
 | 15 | [Challenge #15: Decorating the Christmas tree](day15.md) | 1 |  |
