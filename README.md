@@ -24,7 +24,7 @@ Please, feel free to open a Pull Request if you think that any of these solution
 | 16 | [Challenge #16: Fixing Santa Claus' letters](day16.md) | 🔴 | 1 | >2000 ops/s | [EN](https://adventjs.dev/en/challenges/2022/16) | [ES](https://adventjs.dev/es/challenges/2022/16) |
 | 17 | [Challenge #17: Carrying gifts in bags](day17.md) | 🟠 | 3 | >2000 ops/s | [EN](https://adventjs.dev/en/challenges/2022/17) | [ES](https://adventjs.dev/es/challenges/2022/17) |
 | 18 | [Challenge #18: We ran out of ink!](day18.md) | 🟢 | 1 | >1000 ops/s | [EN](https://adventjs.dev/en/challenges/2022/18) | [ES](https://adventjs.dev/es/challenges/2022/18) |
-| 19 | [Challenge #19: Sorting the toys!](day19.md) | 🟢 | 1 | >3000 ops/s | [EN](https://adventjs.dev/en/challenges/2022/19) | | [ES](https://adventjs.dev/es/challenges/2022/19) |
+| 19 | [Challenge #19: Sorting the toys!](day19.md) | 🟢 | 1 | >3000 ops/s | [EN](https://adventjs.dev/en/challenges/2022/19) | [ES](https://adventjs.dev/es/challenges/2022/19) |
 | 20 | [Challenge #20: More challenging trips](day20.md) | 🔴 | 3 | ~500 ops/s | [EN](https://adventjs.dev/en/challenges/2022/20) | [ES](https://adventjs.dev/es/challenges/2022/20) |
 | 21 | [Challenge #21: Creating the gifts table](day21.md) | 🟠 | 1 | >2000 ops/s | [EN](https://adventjs.dev/en/challenges/2022/21) | [ES](https://adventjs.dev/es/challenges/2022/21) |
 | 22 | [Challenge #22: ???](day22.md) |  |  |  | [EN](https://adventjs.dev/en/challenges/2022/22) | [ES](https://adventjs.dev/es/challenges/2022/22) |
