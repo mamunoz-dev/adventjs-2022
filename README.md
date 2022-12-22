@@ -1,8 +1,10 @@
 # AdventJS 2022
 
-Different solutions for [midudev's](https://midu.dev) [AdventJS 2022 🎅](https://adventjs.dev) challenges:
+Solutions for [midudev's](https://midu.dev) [AdventJS 2022 🎅](https://adventjs.dev) challenges, focused on finding the minimal Cognitive Complexity and the maximum ops/s.
 
-| Day | Challenge | Difficulty | Cognitive complexity | Max. ops/s Achieved | Link | Link |
+Please, feel free to open a Pull Request if you see that any of these solutions can be improved.
+
+| Day | Challenge | Difficulty | Cognitive<br>Complexity | Max. ops/s<br>Achieved | Link | Link |
   :-:|---|:-:|:-:|:-:|:-:|:-:|
 | 1 | [Challenge #1: Automating Christmas gift wrapping!](day1.md) | 🟢 | 1 | >2000 ops/s | [EN](https://adventjs.dev/en/challenges/2022/1) | [ES](https://adventjs.dev/es/challenges/2022/1) |
 | 2 | [Challenge #2: Nobody wants to do extra hours at work](day2.md) | 🟢 | 1 | >2000 ops/s | [EN](https://adventjs.dev/en/challenges/2022/2) | [ES](https://adventjs.dev/es/challenges/2022/2) |
