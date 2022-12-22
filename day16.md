@@ -1,4 +1,6 @@
-### 300 puntos (> 2000 ops/sec, Complejidad Cognitiva: 1)
+# Challenge #16: Fixing Santa Claus' letters
+
+### Cognitive Complexity: 1 (>2000 ops/s)
 
 ```js
 function fixLetter(letter) {
