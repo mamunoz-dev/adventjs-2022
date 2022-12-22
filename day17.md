@@ -22,4 +22,5 @@ function carryGifts(gifts, maxWeight) {
     )
     .reverse()
     .filter((el) => el);
+}
 ```
