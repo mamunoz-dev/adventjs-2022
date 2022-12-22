@@ -13,7 +13,7 @@ Different solutions for [midudev's](https://midu.dev) [AdventJS 2022 🎅](https
 | 7 | [Challenge #7: Doing gifts inventory](day7.md) | 1 | >1000 ops/s |
 | 8 | [Challenge #8: We need a mechanic!](day8.md) | 1 | >3000 ops/s |
 | 9 | [Challenge #9: Crazy Xmas lights](day9.md) | 1 | >2000 ops/s |
-| 10 | [Challenge #10: The Santa Claus sleigh jump](day10.md) | 1 |  |
+| 10 | [Challenge #10: The Santa Claus sleigh jump](day10.md) | 1 | >2000 ops/s |
 | 11 | [Challenge #11: Santa Claus is Scrum Master](day11.md) | 1 |  |
 | 12 | [Challenge #12: Electric sleighs, wow!](day12.md) | 1 |  |
 | 13 | [Challenge #13: Backups for Santa Claus files](day13.md) | 1 |  |
