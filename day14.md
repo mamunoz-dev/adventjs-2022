@@ -1,4 +1,6 @@
-### 300 puntos (<3000 ops/sec, Complejidad Cognitiva: 1)
+# Challenge #14: The best path
+
+### Cognitive Complexity: 1 (>2000 ops/s)
 
 ```js
 function getOptimalPath(path) {
