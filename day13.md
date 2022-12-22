@@ -1,4 +1,6 @@
-### 300 puntos (Complejidad Cognitiva: 1)
+# Challenge #13: Backups for Santa Claus files
+
+### Cognitive Complexity: 1 (>2000 ops/s)
 
 ```js
 function getFilesToBackup(lastBackup, changes) {
