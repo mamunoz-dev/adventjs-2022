@@ -1,4 +1,6 @@
-### 10 puntos
+# Challenge #20: More challenging trips
+
+### Cognitive Complexity: 3 (~500 ops/s)
 
 ```js
 function howManyReindeers(reindeerTypes, gifts) {
