@@ -24,7 +24,7 @@ Different solutions for [midudev's](https://midu.dev) [AdventJS 2022 🎅](https
 | 18 | [Challenge #18: We ran out of ink!](day18.md) | 1 |  |
 | 19 | [Challenge #19: Sorting the toys!](day19.md) | 1 |  |
 | 20 | [Challenge #20: More challenging trips](day20.md) | 1 |  |
-| 21 | [Challenge #21: ???](day21.md) |  |  |
+| 21 | [Challenge #21: Creating the gifts table](day21.md) | 1 | >2000 ops/s |
 | 22 | [Challenge #22: ???](day22.md) |  |  |
 | 23 | [Challenge #23: ???](day23.md) |  |  |
 | 24 | [Challenge #24: ???](day24.md) |  |  |
