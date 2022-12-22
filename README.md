@@ -2,7 +2,7 @@
 
 Solutions for [midudev's](https://midu.dev) [AdventJS 2022 🎅](https://adventjs.dev) challenges, focused on finding the minimal Cognitive Complexity and the maximum ops/s.
 
-Please, feel free to open a Pull Request if you see that any of these solutions can be improved.
+Please, feel free to open a Pull Request if you think that any of these solutions can be improved.
 
 | Day | Challenge | Difficulty | Cognitive<br>Complexity | Max. ops/s<br>Achieved | Link | Link |
   :-:|---|:-:|:-:|:-:|:-:|:-:|
