@@ -1,4 +1,6 @@
-### 200 puntos
+# Challenge #18: We ran out of ink!
+
+### Cognitive Complexity: 1 (>1000 ops/s)
 
 ```js
 function dryNumber(dry, numbers) {
