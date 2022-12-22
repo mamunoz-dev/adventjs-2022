@@ -10,7 +10,7 @@ Different solutions for [midudev's](https://midu.dev) [AdventJS 2022 🎅](https
 | 4 | [Challenge #4: Box inside a box and another...](day4.md) | 1 | >2000 ops/s |
 | 5 | [Challenge #5: Optimizing Santa's trips](day5.md) | 1 | ~20 ops/s |
 | 6 | [Challenge #6: Creating xmas decorations](day6.md) | 1 | ~300 ops/s |
-| 7 | [Challenge #7: Doing gifts inventory](day7.md) | 1 |  |
+| 7 | [Challenge #7: Doing gifts inventory](day7.md) | 1 | >1000 ops/s |
 | 8 | [Challenge #8: We need a mechanic!](day8.md) | 1 |  |
 | 9 | [Challenge #9: Crazy Xmas lights](day9.md) | 1 |  |
 | 10 | [Challenge #10: The Santa Claus sleigh jump](day10.md) | 1 |  |
