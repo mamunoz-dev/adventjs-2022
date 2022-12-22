@@ -22,7 +22,7 @@ Different solutions for [midudev's](https://midu.dev) [AdventJS 2022 🎅](https
 | 16 | [Challenge #16: Fixing Santa Claus' letters](day16.md) | 1 | >2000 ops/s |
 | 17 | [Challenge #17: Carrying gifts in bags](day17.md) | 3 | >2000 ops/s |
 | 18 | [Challenge #18: We ran out of ink!](day18.md) | 1 |  |
-| 19 | [Challenge #19: Sorting the toys!](day19.md) | 1 |  |
+| 19 | [Challenge #19: Sorting the toys!](day19.md) | 1 | >3000 ops/s |
 | 20 | [Challenge #20: More challenging trips](day20.md) | 1 |  |
 | 21 | [Challenge #21: Creating the gifts table](day21.md) | 1 | >2000 ops/s |
 | 22 | [Challenge #22: ???](day22.md) |  |  |
