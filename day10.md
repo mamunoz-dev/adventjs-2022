@@ -1,4 +1,6 @@
-### 260 points
+# Challenge #10: The Santa Claus sleigh jump
+
+### Cognitive Complexity: 1 (>2000 ops/s)
 
 ```js
 function checkJump(heights) {
