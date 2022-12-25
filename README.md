@@ -29,4 +29,4 @@ Please, feel free to open a Pull Request if you think that any of these solution
 | 21 | [Challenge #21: Creating the gifts table](day21.md) | 🟠 | 1 | >2000 ops/s | [EN](https://adventjs.dev/en/challenges/2022/21) | [ES](https://adventjs.dev/es/challenges/2022/21) |
 | 22 | [Challenge #22: The lights in sync](day22.md) | 🟢 | 1 | >3000 ops/s | [EN](https://adventjs.dev/en/challenges/2022/22) | [ES](https://adventjs.dev/es/challenges/2022/22) |
 | 23 | [Challenge #23: Santa Claus Compiler](day23.md) | 🔴 | 4 | >1000 ops/s | [EN](https://adventjs.dev/en/challenges/2022/23) | [ES](https://adventjs.dev/es/challenges/2022/23) |
-| 24 | [Challenge #24: The last challenge is a maze](day24.md) | 🔴 |  |  | [EN](https://adventjs.dev/en/challenges/2022/24) | [ES](https://adventjs.dev/es/challenges/2022/24) |
+| 24 | [Challenge #24: The last challenge is a maze](day24.md) | 🔴 | 36 | >1000 ops/s | [EN](https://adventjs.dev/en/challenges/2022/24) | [ES](https://adventjs.dev/es/challenges/2022/24) |
